@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "deploy": "concurrently \"ng serve --port 8888 --host 0.0.0.0\" \"npm run json\" ",
+    "deploy": "concurrently \"ng serve --port 8888 --host 0.0.0.0 --extract-css\" \"npm run json\" ",
     "start": "concurrently \"ng serve --open\" \"npm run json\" ",
     "build": "ng build",
     "test": "ng test",
